@@ -1,0 +1,31 @@
+{
+    "extends": [
+      "config:base"
+    ],
+    "packageRules": [
+      {
+        "depTypeList": [
+          "devDependencies"
+        ],
+        "prPriority": -2
+      },
+      {
+        "packageNames": [
+          "react",
+          "react-dom",
+          "typescript"
+        ],
+        "prPriority": -1
+      },
+      {
+        "packageNames": [
+          "treat",
+          "react-treat",
+          "reakit",
+          "reakit-utils",
+          "reakit-test-utils"
+        ],
+        "prPriority": 1
+      }
+    ]
+  }
