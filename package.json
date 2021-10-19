@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "reakit-test-utils": "0.10.0",
-    "reakit-utils": "0.11.0"
+    "reakit-test-utils": "0.15.2",
+    "reakit-utils": "0.15.2"
   }
 }
